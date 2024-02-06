@@ -6,7 +6,7 @@ import com.arya.bookapp.service.BookServiceImpl;
 public class App {
 
 	public static void main(String[] args) {
-		int choice;
+		int choice; 
 		int index = 0;
 		BookService service = new BookServiceImpl ();
 		do {
