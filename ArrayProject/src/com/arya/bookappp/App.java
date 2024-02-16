@@ -17,7 +17,7 @@ public class App {
 			case 3 -> service.deleteRecord();
 			case 4 -> service.printRecord(index);
 			case 5 -> service.printAllRecord();
-			case 0 -> System.out.println("Exit... ");
+			case 0 -> System.out.println("Exit... ");                        
 			case 6 -> System.out.println("Invalid Input....");
 			}
 		}while(choice != 0);
