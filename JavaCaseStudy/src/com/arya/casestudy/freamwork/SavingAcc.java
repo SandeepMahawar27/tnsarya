@@ -3,6 +3,7 @@ package com.arya.casestudy.freamwork;
 public abstract class SavingAcc extends BankAcc {
     private boolean isSalaried;
     private static final float MIN_BAL = 500;
+    
 	public SavingAcc(int accountNumber, String accountName, float accountBalance, boolean isSalaried) {
 		super(accountNumber, accountName, accountBalance);
 		this.isSalaried = isSalaried;
